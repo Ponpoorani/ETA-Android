@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#021029"
+    android:gravity="center_vertical" >
+
+    <TextView
+        android:id="@+id/textSeparator"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="@string/trip_list"
+        android:textAllCaps="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFF"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+</LinearLayout><!-- From: file:/D:/MS/Android/ETA_HW4_Code/ETA_CS9033_Ravichandran/app/src/main/res/layout/past_trip.xml -->

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+    <EditText
+        android:layout_width="343dp"
+        android:layout_height="@dimen/EditTextHt"
+        android:id="@+id/edit_tripname"
+        android:hint="@string/tripname"
+        android:background="@drawable/edittextdesign"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:ems="15"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <EditText
+        android:layout_width="249dp"
+        android:layout_height="@dimen/EditTextHt"
+        android:id="@+id/edit_date"
+        android:hint="@string/selectDate"
+        android:background="@drawable/edittextdesign"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:ems="15"/>
+
+        <Button
+            android:id="@+id/datebtn"
+            android:text="@string/addDate"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            android:layout_width="82dp"
+            android:layout_height="55dp"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A80000"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:onClick="addDate" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <EditText
+        android:layout_width="247dp"
+        android:layout_height="@dimen/EditTextHt"
+        android:id="@+id/edit_time"
+        android:hint="@string/selectTime"
+        android:background="@drawable/edittextdesign"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:ems="15"/>
+
+    <Button
+        android:id="@+id/timebtn"
+        android:text="@string/addTime"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:layout_width="82dp"
+        android:layout_height="55dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A80000"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:onClick="addTime" />
+    </LinearLayout>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="1">
+    <EditText
+        android:layout_width="246dp"
+        android:layout_height="@dimen/EditTextHt"
+        android:id="@+id/edit_friends"
+        android:hint="@string/addFriends"
+        android:background="@drawable/edittextdesign"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:ems="15"
+        />
+
+    <Button
+        android:id="@+id/addbtn"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:layout_width="82dp"
+        android:layout_height="55dp"
+        android:background="@drawable/add_contact"
+        android:shadowColor="#A80000"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:onClick="addFriends"
+        android:layout_weight="0.09" />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+        android:layout_width="250dp"
+        android:layout_height="@dimen/EditTextHt"
+        android:id="@+id/edit_location"
+        android:hint="@string/selectLocation"
+        android:background="@drawable/edittextdesign"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:ems="15"/>
+
+        <Button
+            android:id="@+id/locationbtn"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            android:layout_width="82dp"
+            android:layout_height="55dp"
+            android:background="@drawable/open_map"
+            android:shadowColor="#A80000"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:onClick="addLocation" />
+    </LinearLayout>
+
+    <Button
+        android:text="@string/createTrip"
+        android:id="@+id/createTripButton"
+        android:layout_centerVertical="true"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_width="167dp"
+        android:layout_height="60dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A80000"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal" />
+
+
+    <Button
+
+        android:text="@string/cancelTrip"
+        android:id="@+id/cancelTripButton"
+        android:layout_centerVertical="true"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_width="167dp"
+        android:layout_height="60dp"
+        android:background="@drawable/cancelbuttonshape"
+        android:shadowColor="#A80000"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"/>
+
+
+
+</LinearLayout>

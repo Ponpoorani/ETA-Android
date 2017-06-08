@@ -1,0 +1,90 @@
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:weightSum="2"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/eta"
+            android:id="@+id/eta"
+            android:layout_above="@+id/createTrip"
+            android:textColor="#021029"
+            android:textStyle="bold"
+            android:editable="true"
+            android:textIsSelectable="true"
+            android:textSize="28dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:background="#021029"
+        android:orientation="vertical"
+        >
+
+        <Button
+            android:text="@string/createTrip"
+            android:id="@+id/createTrip"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A80000"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:layout_above="@+id/viewTrip"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A80000"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="@string/viewTrip"
+            android:id="@+id/viewTrip"
+            android:layout_alignLeft="@+id/createTrip"
+            android:layout_alignStart="@+id/createTrip"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"/>
+
+        <Button
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A80000"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:onClick="currentTrip"
+            android:text="@string/currentTrip"
+            android:id="@+id/currenttripbtn"
+            android:layout_alignLeft="@+id/createTrip"
+            android:layout_alignStart="@+id/createTrip"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
+

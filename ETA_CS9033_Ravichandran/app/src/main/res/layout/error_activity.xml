@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TableRow>
+
+    <ImageView
+        android:id="@+id/oops"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/oops" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:text="No Trips to show!!"
+        android:textColor="#ffff0e15" />
+
+    <Button
+
+        android:text="@string/back"
+        android:id="@+id/backbtn"
+        android:layout_centerVertical="true"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:layout_width="81dp"
+        android:layout_height="45dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A80000"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="1dp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginTop="40dp" />
+</LinearLayout>

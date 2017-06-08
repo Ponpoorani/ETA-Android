@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ETA</string>
+    <string name="action_settings">Settings</string>
+    <string name="createTrip">Create Trip</string>
+    <string name="viewTrip">View Trip</string>
+    <string name="eta">Estimated Time of Arrival</string>
+    <string name="location">Location</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="selectDate">Select Date</string>
+    <string name="selectTime">Select Time</string>
+    <string name="friends">Friends</string>
+    <string name="addFriends">Add Friend(s)</string>
+    <string name="address">Address</string>
+    <string name="selectLocation">Select Location</string>
+    <string name="createtrip">Create Trip</string>
+    <string name="tripname">Trip Name</string>
+    <string name="back">Back</string>
+    <string name="cancelTrip">Cancel Trip</string>
+    <string name="notrips">No trips available</string>
+    <string name="addFriend">Add</string>
+    <string name="addTime">Time</string>
+    <string name="addDate">Date</string>
+    <string name="addLocation">Map</string>
+    <string name="trip_list">Trip List</string>
+    <string name="tripstatus">Trip Status</string>
+    <string name="starttrip">Start Trip</string>
+ <!--   <string name="people">Start Trip</string>
+    <string name="distleft">Start Trip</string>
+    <string name="timeleft">Time Left:</string>-->
+    <string name="tripmemberstatus">Trip Member Status:</string>
+    <string name="currentloc">Current Location</string>
+    <string name="currentTrip">Current Trip</string>
+    <string name="endtrip">End Trip</string>
+
+
+
+
+    <color name="red">#FF0000</color>
+</resources>
